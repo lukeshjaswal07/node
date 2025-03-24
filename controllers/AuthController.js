@@ -1,3 +1,5 @@
+const abc = "abc";
+
 const bcrypt = require('bcrypt');
 
 const saltRounds = 10;

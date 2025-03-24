@@ -1,7 +1,5 @@
 const bcrypt = require('bcrypt');
 
-const check = "check";
-
 const saltRounds = 10;
 
 const nodemailer = require('nodemailer');

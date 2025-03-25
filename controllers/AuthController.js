@@ -159,7 +159,7 @@ const login = async (req, res) => {
         });
     }
 
-    const storedHash = usernameExists.password;
+    const storedHash = usernameExists.password; 
 
     bcrypt.compare(password, storedHash, function (err, result) {
 

@@ -26,7 +26,7 @@ const TokenMiddleware_ = (req, res, next) => {
 
         req.user = verified;
 
-        next();
+        next(); 
 
     } catch (error) {
 

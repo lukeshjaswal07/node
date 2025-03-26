@@ -3,7 +3,6 @@ const User = require('../models/user.js');
 const UserAddress = require('../models/address.js');
 
 const mongoose = require('mongoose');
-
 const GetUserProfile = async (req, res) => {
 
     // const user_data = await User.findOne({ email: req.user.email });
